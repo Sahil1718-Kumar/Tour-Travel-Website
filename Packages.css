@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .card{
+    box-shadow: 5px 10px 10px rgb(94, 93, 93), -5px -10px 10px rgb(84, 84, 84);
+  }
+  .card:hover{
+    background: linear-gradient(blue,black);
+    color: aliceblue;
+    box-shadow: 5px 10px 10px black, -5px -10px 10px black;
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }

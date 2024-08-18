@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ 
+h3{
+    
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    animation: backgroundChange 15s infinite alternate;
+  }
+ 
+  .text2{
+    visibility: hidden;
+    animation: abcde2 10s ease-in 0s infinite normal;
+  }
+  .text3{
+    visibility: hidden;
+    animation: abcde3 10s ease-in 0s infinite normal;
+   }
+  .text4{
+    animation: abcde4 10s ease-in 0s infinite normal;
+  }
+  .text5{
+    animation: abcde5 10s ease-in 0s infinite normal;
+  } 
+  .text6{
+    animation: abcde6 10s ease-in 0s infinite normal;
+  } 
+  
+  @keyframes backgroundChange {
+    0% {
+      background-image: url('https://images.pexels.com/photos/210307/pexels-photo-210307.jpeg?cs=srgb&dl=adventure-arid-barren-210307.jpg&fm=jpg');
+      color: rgb(12, 12, 12);
+    }
+    25% {
+      background-image: url('https://th.bing.com/th/id/R.c64fae7ff43ff58663287e1a0d120071?rik=F79Xc6%2fhXZX7KA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-pcWFhXqVZ98%2fUAJ3O7FNVJI%2fAAAAAAAAFLU%2fwQRwJQNyoqQ%2fs1600%2fSea%2bBeach%2bWallpaper%2b(14).jpg&ehk=mqwKtGLlIP2qrctuVyU0w54o5aaCWN7IaS7bUoCyzak%3d&risl=&pid=ImgRaw&r=0');
+      color: rgb(251, 247, 247);
+    }
+    50% {
+      background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701433208.jpg');
+      color: rgb(2, 2, 2);
+    }
+    75% {
+      background-image: url('https://media.cntraveler.com/photos/598339c9b7a86962e8e27c5d/master/pass/Paris_GettyImages-601763009.jpg');
+      color: rgb(247, 243, 243);
+    }
+    100% {
+      background-image: url('https://assets-news.housing.com/news/wp-content/uploads/2022/09/06071350/RAMESHWARAM-FEATURE-compressed.jpg');
+      color: black;
+    }
+  }
+
+  @keyframes abcde2{
+    0%{
+      visibility: hidden;
+    }
+    20%{
+      visibility: visible;
+    }
+    30%{
+      visibility: visible;
+      text-decoration: solid underline;
+    }
+    60%{
+      visibility: visible;
+      
+    }
+    80%{
+      visibility: visible;
+    }
+    100%{
+      visibility: visible;
+      
+    }
+  }
+
+   @keyframes abcde3{
+    0%{
+      visibility: hidden;
+    }
+    20%{
+      visibility: hidden;
+    }
+    30%{
+      visibility: visible;
+    }
+    40%{
+      visibility: visible;
+      text-decoration: solid underline;
+    }
+    50%{
+      visibility: visible;
+    }
+    80%{
+      visibility: visible;
+    }
+    100%{
+      visibility: visible;
+    }
+  }
+
+   @keyframes abcde4{
+      0%{
+      visibility: hidden;
+    }
+    20%{
+      visibility: hidden;
+    }
+    30%{
+      visibility: hidden;
+    }
+    40%{
+      visibility: visible;
+    }
+    50%{
+      visibility: visible;
+      text-decoration: solid underline;
+    }
+    80%{
+      visibility: visible;
+    }
+    100%{
+      visibility: visible;
+    }
+  }
+   @keyframes abcde5{
+    0%{
+      visibility: hidden;
+    }
+    20%{
+      visibility: hidden;
+    }
+    30%{
+      visibility: hidden;
+    }
+    40%{
+      visibility: hidden;
+    }
+    50%{
+      visibility: visible;
+    }
+    70%{
+      visibility: visible;
+      text-decoration: solid underline;
+    }
+    80%{
+      visibility: visible;
+    }
+    100%{
+      visibility: visible;
+    }
+  }   
+  @keyframes abcde6{
+    0%{
+      visibility: hidden;
+    }
+    20%{
+      visibility: hidden;
+    }
+    30%{
+      visibility: hidden;
+    }
+    40%{
+      visibility: hidden;
+    }
+    50%{
+      visibility: hidden;
+    }
+    60%{
+      visibility: visible;
+    }
+    80%{
+      visibility: visible;
+      text-decoration: solid underline;
+    }
+    100%{
+      visibility: visible;
+    }
+  }   
+
+  
+
