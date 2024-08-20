@@ -2,6 +2,12 @@ import React from 'react';
 import './Packages.css';
 import { HashLink as NavLink } from "react-router-hash-link";
 const Contact =() =>{
+    const Top = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+  }
     return(
         <>
         <div id='contact' >
